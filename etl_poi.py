@@ -105,7 +105,7 @@ df = pd.concat([df_consolidate, df_consolidate_poi, df_consolidate_placa], sort=
 df.drop('tempo_andando_poi', axis='columns', inplace=True)
 
 # faz uma limpeza em informações nulas 
-values = {'placa': '', 'poi': '0', 'tempo_parado_poi': 0, 'tempo_total_poi': 0}
+values = {'placa': '', 'poi': '', 'tempo_parado_poi': 0, 'tempo_total_poi': 0}
 df.fillna(value=values, inplace=True)
 
 # exporta o dataset gerado para 
