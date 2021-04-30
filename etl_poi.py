@@ -23,17 +23,15 @@ def get_poi(long, lat):
 # params: date -> data a ser formatada
 #
 # return: retorna a data data no padrão yyyy-mm-dd HH:MM:SS
-#
 def get_date(date):
     return dt.datetime.strptime(date.replace(" (Hora oficial do Brasil)", ""), '%a %b %d %Y %H:%M:%S GMT-0200')
 
 # procedimento para retornar o estado do veiculo
 #
 # params: ignicao -> indicador de ignicao ligada ou deseligada
-#        velocidade -> velocidade informada do veiculo
+#         velocidade -> velocidade informada do veiculo
 #
-# return: retorna o estado do veiculo   (Parado ou Andando)
-#    
+# return: retorna o estado do veiculo   (Parado ou Andando)   
 def get_status(ignicao, velocidade):
     if ignicao == False & velocidade < 5:
         return 'Parado'
@@ -46,7 +44,7 @@ def get_status(ignicao, velocidade):
 #         placa  -> placa do veiculo
 #         status -> estado do veiculo em que se deseja fazer a consulta de horas gastas (Parado ou Andando)
 #
-# return: retorna o tempo gasto, em horas, de um veiculo em determiado poi no estado solicitado (Parado ou Andando)
+# return: retorna o tempo gasto, em minutos, de um veiculo em determiado poi no estado solicitado (Parado ou Andando)
 def get_time(poi, placa, status):
     time = []
     change = True
