@@ -19,23 +19,26 @@ Para isso, foi criado o ETL <a href="https://github.com/gLeitao/mobi7/blob/main/
 
 <h2>Requisitos necessários para rodar o programa</h2>
 
-    • Instalar as bibliotecas listadas abaixo:
-
-        ◦ pip install pandas
-        ◦ pip install geopy
-        ◦ pip install DateTime
-
-    • Baixar o projeto <a href=”https://github.com/gLeitao/mobi7”> mobi7 </a>
+<ul>
+   <li>Instalar as bibliotecas listadas abaixo:
+       <ul>
+           <li>pip install pandas</li>
+           <li>pip install geopy</li>
+           <li>pip install DateTime</li>
+       </ul>
+   </li>
+   <li>Baixar o projeto <a href="https://github.com/gLeitao/mobi7"> mobi7 </a></li>
+    <li>Rodar o script <a href="https://github.com/gLeitao/mobi7/blob/main/etl_poi.py"> etl_poi.py </a></a></li>
+</ul>
+    
 
 </br>
 
 <h2> Resultados Obtidos </h2>
-Como dito anteriormente, o programa <a href="https://github.com/gLeitao/mobi7/blob/main/etl_poi.py">etl_poi.py</a> irá gerar o arquivo
-<a href="https://github.com/gLeitao/mobi7/blob/main/%20resultados_consolidado_pois.csv"> resultados_consolidados_pois.csv</a>. 
+<p>Como dito anteriormente, o programa <a href="https://github.com/gLeitao/mobi7/blob/main/etl_poi.py">etl_poi.py</a> irá gerar o arquivo
+<a href="https://github.com/gLeitao/mobi7/blob/main/%20resultados_consolidado_pois.csv"> resultados_consolidados_pois.csv</a>. </p> 
 
-</br>
-
-O qual terá contido os campos:
+<p>O qual terá contido os campos:</p>
 
 <table>
     <tr>
