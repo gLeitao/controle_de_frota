@@ -33,7 +33,7 @@ Para isso, foi criado o ETL <a href="https://github.com/gLeitao/mobi7/blob/main/
 Como dito anteriormente, o programa <a href="https://github.com/gLeitao/mobi7/blob/main/etl_poi.py">etl_poi.py</a> irá gerar o arquivo
 <a href="https://github.com/gLeitao/mobi7/blob/main/%20resultados_consolidado_pois.csv"> resultados_consolidados_pois.csv</a>. 
 
-</br></br>
+</br>
 
 O qual terá contido os campos:
 
